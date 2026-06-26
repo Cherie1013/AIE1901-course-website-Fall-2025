@@ -25,4 +25,5 @@ build/
 *.mp4
 *.zip
 *.tar.gz
-*.exe
+*.exe大文件路径/文件名
+“./projects/examples/Final_Example_2.zip”
