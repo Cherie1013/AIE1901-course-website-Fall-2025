@@ -1,0 +1,28 @@
+# Mac 系统文件
+.DS_Store
+
+# 依赖包
+node_modules/
+venv/
+env/
+.venv/
+vendor/
+__pycache__/
+*.pyc
+
+# 编译文件
+dist/
+build/
+*.log
+
+# 环境变量（含密码）⚠️ 重要
+.env
+.env.local
+*.pem
+*.key
+
+# 大文件
+*.mp4
+*.zip
+*.tar.gz
+*.exe
