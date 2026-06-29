@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outline — AIE1901</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="site-header" class="site-header"></header>
+
+    <section class="page-hero">
+        <div class="container">
+            <span class="eyebrow">Course Outline</span>
+            <h1>Outline</h1>
+            <p class="lead">A hands-on course on social simulation — building agent-based models, running in-class experiments, and extending them with LLM APIs.</p>
+        </div>
+    </section>
+
+    <main class="content">
+        <div class="container">
+
+            <!-- Quick Nav -->
+            <div class="outline-nav">
+                <a href="#overview" class="outline-nav-card">
+                    <h4>Course Overview</h4>
+                    <p>ABM, in-class experiments, and LLM-driven simulations.</p>
+                </a>
+                <a href="#assessment" class="outline-nav-card">
+                    <h4>Assessment</h4>
+                    <p>Lab engagement, midterm project, and final project.</p>
+                </a>
+                <a href="#components" class="outline-nav-card">
+                    <h4>Components</h4>
+                    <p>Lectures, labs, and team projects.</p>
+                </a>
+                <a href="#policies" class="outline-nav-card">
+                    <h4>Policies</h4>
+                    <p>Academic honesty and grade descriptor.</p>
+                </a>
+            </div>
+
+            <!-- Course Description -->
+            <h2 class="block-title spaced">Course Description</h2>
+            <div class="note">
+                <p>This course explores the application of AI in the social sciences, using computational models to replicate complex social behavior that emerges from individual interactions — examining cooperation, conflict, and collective outcomes. Students gain hands-on experience with Agent-Based Modeling (ABM) and LLM APIs, and run in-class social experiments (decision-making games) to see how models capture — and fall short of — real human behavior.</p>
+                <p>A core case study is the urban model: although residents prefer medium density, cities still tend to overcrowd — highlighting the tension between individual and collective rationality. The semester progresses from basic ABM and parameter analysis to LLM-driven simulations, emphasizing creativity, teamwork, and independent inquiry.</p>
+            </div>
+
+            <!-- Instructor & TA -->
+            <div class="note" style="margin-top: 28px;">
+                <h4>Instructor &amp; Teaching Assistant</h4>
+                <div class="two-col">
+                    <div>
+                        <p class="who">Prof. Zhanzhan Zhao</p>
+                        <p class="who-meta"><a href="mailto:zhanzhanzhao@cuhk.edu.cn">zhanzhanzhao@cuhk.edu.cn</a></p>
+                        <p class="who-meta">Office hours: Thursdays 12:30–1:30 pm (TXB 908)</p>
+                    </div>
+                    <div>
+                        <p class="who">TA: Xiao Jia</p>
+                        <p class="who-meta"><a href="mailto:225080011@link.cuhk.edu.cn">225080011@link.cuhk.edu.cn</a></p>
+                        <p class="who-meta">Office hours: Thursdays 12:30–1:30 pm (TXB 908)</p>
+                    </div>
+                </div>
+                <div class="two-col" style="margin-top: 20px;">
+                    <div>
+                        <p class="who">Class time</p>
+                        <p class="who-meta">Thursdays 1:30–3:20 pm (Sep 4 – Dec 11, except Oct 2)</p>
+                    </div>
+                    <div>
+                        <p class="who">Location</p>
+                        <p class="who-meta">Teaching Complex C, Room 501 (Lecture 1: TA Building, Room 206)</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Learning Outcomes -->
+            <h2 class="block-title spaced">Learning Outcomes</h2>
+            <p class="prose">By the end of the course, students will be able to:</p>
+            <ul class="outcome-list">
+                <li>Read and understand social-behavior modeling code with AI-assisted tools.</li>
+                <li>Apply agent-based modeling (ABM) to simulate group dynamics and social systems.</li>
+                <li>Understand LLM fundamentals and use APIs to design simple experiments via prompt engineering.</li>
+                <li>Collaborate in teams on a social-simulation project — data collection, design, analysis, and reporting.</li>
+                <li>Critically evaluate the potential and ethical implications of AI in social science.</li>
+            </ul>
+
+            <!-- Prerequisites -->
+            <h2 class="block-title spaced">Prerequisites / Co-requisites</h2>
+            <div class="note">
+                <p>No formal prerequisites or co-requisites. Basic Python familiarity is helpful but not required — the course builds the necessary skills as it progresses.</p>
+            </div>
+
+            <!-- Assessment -->
+            <h2 id="assessment" class="block-title spaced">Assessment Scheme</h2>
+            <table class="simple-table">
+                <thead><tr><th>Component</th><th>Weight</th></tr></thead>
+                <tbody>
+                    <tr><td>Lab Engagement</td><td>40%</td></tr>
+                    <tr><td>Midterm Project</td><td>30%</td></tr>
+                    <tr><td>Final Project</td><td>30%</td></tr>
+                </tbody>
+            </table>
+
+            <div class="assess-detail">
+                <h5>Lab Engagement (40%)</h5>
+                <p>Four practical lab assignments across the semester, each worth 10%. Each is designed to be completed within a lab session (about one hour of work).</p>
+            </div>
+            <div class="assess-detail">
+                <h5>Midterm Project (30%)</h5>
+                <p>A group presentation synthesizing and comparing the previous labs into a cohesive slide deck, with each member describing their contributions. Bonus points for deeper exploration or modification of the simulation models.</p>
+            </div>
+            <div class="assess-detail">
+                <h5>Final Project (30%)</h5>
+                <p>A group presentation and report synthesizing the ABM variants studied before the midterm with the LLM-driven techniques introduced afterward, summarizing key results and offering critical reflections.</p>
+            </div>
+
+            <!-- Course Components -->
+            <h2 id="components" class="block-title spaced">Course Components</h2>
+            <div class="note">
+                <p>The course mixes teaching strategies to encourage active learning, hands-on practice, and teamwork.</p>
+                <div class="assess-detail">
+                    <h5>Lectures</h5>
+                    <p>Introduce foundational concepts, theories, and hands-on lab instructions.</p>
+                </div>
+                <div class="assess-detail">
+                    <h5>Labs</h5>
+                    <p>In-class, hands-on tasks where you implement and analyze simulations of social systems.</p>
+                </div>
+                <div class="assess-detail">
+                    <h5>Team Projects</h5>
+                    <p>Collaborative midterm and final projects, presented to the class with critical reflection.</p>
+                </div>
+            </div>
+
+            <!-- Policies -->
+            <h2 id="policies" class="block-title spaced">Course Policies</h2>
+
+            <!-- Other Information -->
+            <div class="note" style="margin-top: 24px;">
+                <h4>Group Discussion Rooms</h4>
+                <p>Rooms TD111, TD113, TD114, and TD115 (TD Building, 1st floor; 40 seats each) are available for AIE1901 project work and group discussions throughout Term 1, AY2025–26, Monday to Friday, 6:00–9:00 pm — except September 5 (OSA health examination event).</p>
+            </div>
+
+            <div class="note" style="margin-top: 24px;">
+                <h4>Academic Honesty</h4>
+                <p>Attention is drawn to University policy and regulations on honesty in academic work, and to the disciplinary guidelines and procedures applicable to breaches of such policy and regulations. Details may be found at <a href="https://registry.cuhk.edu.cn/en/page/30" target="_blank">https://registry.cuhk.edu.cn/en/page/30</a>.</p>
+                <p>With each assignment, students must submit a signed declaration that they are aware of these policies. For group projects, all members of the group must sign the declaration. Only the final version of the assignment should be submitted via VeriGuide.</p>
+            </div>
+
+            <div id="grades" class="note" style="margin-top: 24px;">
+                <h4>Grade Descriptor</h4>
+                <table class="grade-table">
+                    <thead>
+                        <tr><th>Grade</th><th>Score</th><th>Explanation</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>A</td><td>95+</td><td>Outstanding: exceptionally good performance on all learning outcomes.</td></tr>
+                        <tr><td>A-</td><td>90–94</td><td>Very good: outstanding performance on the majority of learning outcomes.</td></tr>
+                        <tr><td>B+</td><td>85–89</td><td>Slightly above expectation: generally meet expectations, with one or two slightly exceeding.</td></tr>
+                        <tr><td>B</td><td>80–84</td><td>Good: solid performance on some learning outcomes, while others are adequate.</td></tr>
+                        <tr><td>B-</td><td>75–79</td><td>Meet expectation: acceptable performance on almost all learning outcomes.</td></tr>
+                        <tr><td>C</td><td>65–74</td><td>Below expectation: barely meet requirements for a few learning outcomes.</td></tr>
+                        <tr><td>D</td><td>60–64</td><td>Meet minimum requirement: only a small portion of learning outcomes are fulfilled.</td></tr>
+                        <tr><td>F</td><td>&lt;60</td><td>Fail: unsatisfactory performance overall, or failure to meet major requirements.</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </main>
+
+    <footer id="site-footer" class="site-footer"></footer>
+
+    <script src="js/course.js"></script>
+    <script src="js/components.js"></script>
+    <script>renderChrome('outline');</script>
+</body>
+</html>
