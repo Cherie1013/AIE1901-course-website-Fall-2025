@@ -26,3 +26,6 @@ build/
 *.zip
 *.tar.gz
 *.exe
+
+# 允许提交项目示例压缩包
+!projects/examples/*.zip
